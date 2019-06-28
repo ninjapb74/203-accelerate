@@ -1,0 +1,187 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+/* HOMEPAGE STYLES */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+.button {
+	background: #45ac9d;
+}
+
+/*FEATURED WORK ON HOMEPAGE*/
+.featured-work {
+    width:100%;
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+    text-align: center;
+}
+
+.homepage-featured-work {
+  list-style-type: none;
+}
+
+.individual-featured-work {
+  width: 30%;
+  float:left;
+  margin-right: 1em;
+}
+
+.individual-featured-work h3 {
+  font-size: 1.5em;
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #595959;
+  text-align: center;
+  text-transform: none;
+  margin-top:1em;
+}
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* CASE_STUDIES */
+article.case-study {
+  width: 100%;
+  float:left;
+  margin-bottom: 2em;
+}
+
+aside.case-study-sidebar {
+  float:left;
+  width: 30%;
+  margin-right: 50px;
+}
+
+
+aside.case-study-sidebar h2 {
+  font: 'Open Sans';
+  font-weight: 700;
+}
+
+aside.case-study-sidebar h3 {
+  color:#878787;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  margin-top: 0;
+}
+
+aside.case-study-sidebar h4 {
+  margin-top:0;
+}
+
+aside.case-study-sidebar h5 {
+  color: #45ac9d;
+}
+
+aside.case-study-sidebar p {
+  font-size: 15px;
+  font: 'Open Sans';
+  margin-top:2em;
+}
+
+div.case-study-images {
+  float:left;
+  width: 60%;
+  text-align:center;
+}
+
+
+/* BODY STYLES */
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* NEXT / PREV STYLES */
+#navigationnext {
+	background: #fff;
+	border-top: 1px solid #bfbfbf;
+	clear: both;
+	font: .8em/4.08 'Open Sans', Arial, sans-serif;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	margin-bottom: -2em;
+  margin-left:0;
+  margin-right:0;
+}
+
+#navigationnext .left {
+	display: inline;
+	float: left;
+}
+#navigationnext .right {
+	display: inline;
+	float: right;
+}
+#navigationnext .left a,
+#navigationnext .right a {
+	color: #45ac9d;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#navigationnext .left a span,
+#navigationnext .right a span {
+	color: #150300;
+}
+
+#navigationnext .left a span {
+	padding-left: .5em;
+}
+#navigationnext .right a span {
+	padding-right: .5em;
+}
+#navigationnext .left a:hover,
+#navigationnext .right a:hover {
+	text-decoration: none;
+}
+#navigationnext .left a:hover span,
+#navigationnext .right a:hover span {
+	text-decoration: underline;
+}
+#navigationnext .pagination {
+	display: none;
+	color: #a6a6a6;
+}
+/* End NEXT / PREV STYLES */
+
+.menu-item {
+  list-style: none;
+  display:inline;
+  border-radius:50%;
+  text-align:right;
+}
